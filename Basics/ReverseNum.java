@@ -8,6 +8,7 @@ class Solution {
 
             if(rev > Integer.MAX_VALUE/10 || rev < Integer.MIN_VALUE/10){
                 return 0;
+                
             }
             rev=temp+rev*10;
             x=x/10;
