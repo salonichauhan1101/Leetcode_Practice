@@ -10,6 +10,7 @@ class Main {
             if(s.charAt(p1)!=s.charAt(p2)){
                 return false;
             }
+            
             p1++;
             p2--;
         }
