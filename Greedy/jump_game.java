@@ -9,6 +9,7 @@ class Solution {
             }
             maxIndex = Math.max(maxIndex, i + nums[i]);
         }
+        
         return true;
     }
 }
