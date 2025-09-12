@@ -14,6 +14,7 @@ class Solution {
             output[i]*=right;
             right*=nums[i];
         }
+        
 
         return output;
     }
