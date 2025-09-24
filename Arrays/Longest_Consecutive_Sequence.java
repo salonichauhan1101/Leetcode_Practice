@@ -8,7 +8,6 @@ class Solution {
         int max=1;
         int smallerNum=Integer.MIN_VALUE;
         
-
         for(int i=0;i<n;i++){
             if(nums[i]-1 == smallerNum){
                 cnt++;
